@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo para inverter a cor do ícone de calendário no modo escuro */
+.invert-calendar-icon::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+body {
+  background-color: #0c0a09; /* stone-950 */
+  color: white;
+}
